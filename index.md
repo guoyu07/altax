@@ -17,6 +17,8 @@ But these don't allow you to write a deployment task in PHP.
 Altax is different. The following code is example to declare deployment task for Altax.
 
 <pre class="php">
+// Output message uses colors.
+set('colors', true);
 
 // Target hosts and ssh connection settings.
 host('web1',  array('host' => '192.168.0.10', 'port' => '22'), 'web');
@@ -30,7 +32,6 @@ task('deploy', array('roles' => 'web'), function($host, $args){
     run('git pull', array('cwd' => '/path/to/application'));
 
 });
-
 </pre>
 
 There are more infomations in the [documentation](/altax/documentation/) page.
