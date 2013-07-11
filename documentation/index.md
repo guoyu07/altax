@@ -8,9 +8,7 @@ title: Documentation - Altax
 
 * [Installation](/altax/documentation/installation.html)
 
-* [Basic usage](/altax/documentation/basic-usage.html)
-
 * [Configuration](/altax/documentation/configuration.html)
 
-
+* [Basic usage](/altax/documentation/basic-usage.html)
 

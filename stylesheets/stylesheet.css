@@ -391,4 +391,21 @@ footer {
   padding-bottom: 20px;
 }
 
+.prev {
+  display: block;
+  margin-top: 10px;
+  font-size: 120%;
+}
 
+.next {
+  display: block;
+  margin-top: 10px;
+  font-size: 120%;
+}
+
+.prev:before {
+  content: "<< ";
+}
+.next:after {
+  content: " >>";
+}
