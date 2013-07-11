@@ -179,6 +179,11 @@ pre code {
   padding: 0;
 }
 
+.main dl dd {
+  font-style: italic;
+  font-weight: 100;
+}
+
 
 ul.header-menu {
   font-family: Arial, sans-serif;
@@ -354,11 +359,6 @@ h1.page-title a:visited
 .main ol li {
   list-style: decimal inside;
   padding-left: 3px;
-}
-
-.main dl dd {
-  font-style: italic;
-  font-weight: 100;
 }
 
 .region {
