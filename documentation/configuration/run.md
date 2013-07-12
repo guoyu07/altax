@@ -37,7 +37,7 @@ run(string $command, array $options)
 run('git pull', array('cwd' => '/path/to/application'));
 
 // Restart httpd. 'user' option changes user to run command. You need to setup sudo configuration on altax ssh connection user.
-run('/etc/init.d/httpd restart', array('user' => 'root', 'cwd' => '/path/to/application'));
+run('/etc/init.d/httpd restart', array('user' => 'root'));
 
 </pre>
 
