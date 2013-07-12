@@ -5,7 +5,7 @@ title: Documentation - Altax
 ## Configuration
 
 This page provides infomations of several configuration functions on Altax.
-You can use these functions on Altax on your altax configuration file (default file name is `altax.php` on your current working directory).
+You can use these functions on your altax configuration file (default file name is `altax.php` on your current working directory).
 
 
 ### Overviews
