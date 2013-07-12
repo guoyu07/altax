@@ -36,6 +36,10 @@ task('deploy', array('roles' => 'web'), function($host, $args){
 
 There are more infomations in the [documentation](/altax/documentation/) page.
 
+## Requrement
+
+PHP5.3 or later.
+
 ## License
 
 Altax is licesed Apache License 2.0.

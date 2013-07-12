@@ -7,16 +7,27 @@ title: Documentation - Altax
 
 There are several ways to install Altax to your system.
 
-### Installing compiled package
+### Installing compiled package to current working direcotry
 
 The compiled package is a single executable PHP file generated from all Altax src files.
 
-Just run the following command under the root user.
-Executable `altax` command file is put in the `/usr/local/bin`
+If you want to install Altax to your current working directory, you should run below command.
 
 <pre class="sh">
-$ curl https://raw.github.com/kohkimakimoto/altax/master/installer.sh | sh
+$ ccurl https://raw.github.com/kohkimakimoto/altax/master/installer.sh | bash -s
 </pre>
+
+You will get executable `altax` command file in your current working directory.
+
+### Installing compiled package to system wide
+
+If you want to install Altax to system wide, you should run below command under the root user.
+
+<pre class="sh">
+$ ccurl https://raw.github.com/kohkimakimoto/altax/master/installer.sh | bash -s system
+</pre>
+
+You will get executable `altax` command file in `/usr/local/bin`.
 
 ### Installing composer package
 
