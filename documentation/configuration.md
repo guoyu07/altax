@@ -32,7 +32,7 @@ task('deploy', array('roles' => 'web'), function($host, $args){
 
 ### Reference configurations
 
-* [role](/altax/documentation/configuration/role.html) - Associates a role with multiple servers.
+* [role](/altax/documentation/configuration/role.html) - Associates a role with multiple hosts.
 * [host](/altax/documentation/configuration/host.html) - Associates a host with multiple roles.
 * [task](/altax/documentation/configuration/task.html) - Defines a new task.
 * [desc](/altax/documentation/configuration/desc.html) - Associates a description with the next task that gets defined.

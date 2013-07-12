@@ -9,7 +9,7 @@ You can use this command with some command line options.
 
 ### syntax
 
-<pre class="sh">
+<pre class="sh-nonumber">
 altax [-d|-h|-f|-l|-c] TASK [ARGS..]
 </pre>
 
@@ -22,7 +22,7 @@ Switch the debug mode to output log on the debug level.
 
 Exsample:
 
-<pre class="sh">
+<pre class="sh-nonumber">
 $ altax -d init
 </pre>
 
@@ -32,7 +32,7 @@ List available tasks.
 
 Exsample:
 
-<pre class="sh">
+<pre class="sh-nonumber">
 $ altax -l
 </pre>
 
@@ -42,7 +42,7 @@ List available command line options.
 
 Exsample:
 
-<pre class="sh">
+<pre class="sh-nonumber">
 $ altax -h
 </pre>
 
@@ -53,7 +53,7 @@ Specify to load configuration file.
 
 Exsample:
 
-<pre class="sh">
+<pre class="sh-nonumber">
 $ altax -f=/path/to/altax.php
 </pre>
 
@@ -64,7 +64,7 @@ List configurations.
 
 Exsample:
 
-<pre class="sh">
+<pre class="sh-nonumber">
 $ altax -c
 </pre>
 
@@ -72,29 +72,29 @@ $ altax -c
 
 You run a defined task below command
 
-<pre class="sh">
+<pre class="sh-nonumber">
 $ altax sometask
 </pre>
 
 The following is built-in init task to create initial configuration file.
 
-<pre class="sh">
+<pre class="sh-nonumber">
 $ altax init
 </pre>
 
 If you have a problem, you can use -d option to get debug level messages.
 
-<pre class="sh">
+<pre class="sh-nonumber">
 $ altax -d sometask
 </pre>
 
 You can use command line arguments passed to your task.
 
-<pre class="sh">
+<pre class="sh-nonumber">
 $ altax sometask foo bar
 </pre>
 
-You can use arguments link below PHP code.
+You can use arguments as below PHP code.
 <pre class="php">
 task('sometask', array('roles' => 'web'), function($host, $args){
     // args[0] => "foo"

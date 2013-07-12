@@ -13,8 +13,8 @@ The compiled package is a single executable PHP file generated from all Altax sr
 
 If you want to install Altax to your current working directory, you should run below command.
 
-<pre class="sh">
-$ ccurl https://raw.github.com/kohkimakimoto/altax/master/installer.sh | bash -s
+<pre class="sh-nonumber">
+$ curl https://raw.github.com/kohkimakimoto/altax/master/installer.sh | bash -s
 </pre>
 
 You will get executable `altax` command file in your current working directory.
@@ -23,8 +23,8 @@ You will get executable `altax` command file in your current working directory.
 
 If you want to install Altax to system wide, you should run below command under the root user.
 
-<pre class="sh">
-$ ccurl https://raw.github.com/kohkimakimoto/altax/master/installer.sh | bash -s system
+<pre class="sh-nonumber">
+$ curl https://raw.github.com/kohkimakimoto/altax/master/installer.sh | bash -s system
 </pre>
 
 You will get executable `altax` command file in `/usr/local/bin`.
@@ -45,7 +45,7 @@ Make `composer.json` file like the following.
 
 And run Composer install command.
 
-<pre class="sh">
+<pre class="sh-nonumber">
 $ curl -s http://getcomposer.org/installer | php
 $ php composer.phar install
 </pre>

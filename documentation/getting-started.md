@@ -10,7 +10,7 @@ This page provides a tutorial to use Altax at first.
 
 Run the following command under the root user.
 
-<pre class="sh">
+<pre class="sh-nonumber">
 $ curl https://raw.github.com/kohkimakimoto/altax/master/installer.sh | bash -s system
 </pre>
 
@@ -20,7 +20,7 @@ You will get `altax` command in your /usr/local/bin/
 
 At first time, you need to create a configuration file `altax.php`. Run the following command to generate `altax.php` file.
 
-<pre class="sh">
+<pre class="sh-nonumber">
 $ altax init
 </pre>
 
@@ -41,7 +41,7 @@ task('sample',array('roles' => 'web'), function($host, $args){
 
 Run below command to show available tasks list
 
-<pre class="sh">
+<pre class="sh-nonumber">
 $ altax -l
 # You will get below message.
 Available tasks :
@@ -53,7 +53,7 @@ Available tasks :
 
 Execute below command.
 
-<pre class="sh">
+<pre class="sh-nonumber">
 $ altax sample
 # You will get below message.
 [2013-02-28T08:46:58+09:00] *** Altax version 1.0.0 ***
