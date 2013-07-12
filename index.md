@@ -36,6 +36,8 @@ task('deploy', array('roles' => 'web'), function($host, $args){
 
 There are more infomations in the [documentation](/altax/documentation/) page.
 
+Latest stable version v1.3.1
+
 ## Requrement
 
 PHP5.3 or later.
