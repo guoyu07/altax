@@ -131,6 +131,18 @@ body {
   color: #666;
 }
 
+small {
+  font-size: 85%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
 ol, ul {
   list-style: none;
 }
