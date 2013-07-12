@@ -5,7 +5,7 @@ title: Documentation - Altax
 
 ## Installation
 
-There are two ways to install Altax to your system.
+There are several ways to install Altax to your system.
 
 ### Installing compiled package
 
