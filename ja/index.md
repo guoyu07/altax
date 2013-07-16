@@ -15,7 +15,7 @@ AltaxはSSHを並列実行するシンプルなデプロイツールです。以
 * コンパイルドパッケージを使用すれば、PHPファイル一つのみで動作します。
 
 Altaxは[Capistrano](https://github.com/capistrano/capistrano)と[Cinamon](https://github.com/kentaro/cinnamon)に強くインスパイアされています。
-しかし、これらではデプロイタスクをPHPで書くことができません。
+しかし、それらではデプロイタスクをPHPで書くことができません。
 Altaxは違います。以下のコードはAltaxのデプロイタスクのサンプルです。
 
 <pre class="php">
