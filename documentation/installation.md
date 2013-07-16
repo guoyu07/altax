@@ -58,7 +58,7 @@ $ php composer.phar install
   <div class="span4">
     <a class="prev" href="/altax/documentation/getting-started.html">Getting started</a>
   </div>
-  <div class="span4 offset4" style="text-align: right;">
+  <div class="span4 offset1" style="text-align: right;">
     <a class="next" href="/altax/documentation/configuration.html">Configuration</a>
   </div>
 </div>

@@ -48,7 +48,7 @@ task('deploy', array('roles' => 'web'), function($host, $args){
   <div class="span4">
     <a class="prev" href="/altax/ja/documentation/installation.html">インストール</a>
   </div>
-  <div class="span4 offset4" style="text-align: right;">
+  <div class="span4 offset1" style="text-align: right;">
     <a class="next" href="/altax/ja/documentation/basic-usage.html">基本的な使用方法</a>
   </div>
 </div>
