@@ -1,34 +1,34 @@
 ---
 layout: default
-title: Documentation - Altax
+title: ドキュメント - Altax
 lang:  ja
 url_prefix: ja/
 ---
-## Getting started
+## はじめに
 
-This page provides a tutorial to use Altax at first.
+Altaxを初めて使うひと向けのチュートリアルです。
 
-### Installation
+### インストール
 
-Run the following command under the root user.
+以下のコマンドをルートユーザで実行してください。
 
 <pre class="sh-nonumber">
 $ curl https://raw.github.com/kohkimakimoto/altax/master/installer.sh | bash -s system
 </pre>
 
-You will get `altax` command in your /usr/local/bin/
+`altax`コマンドファイルが/usr/local/bin/にインストールされます。
 
-### Configurations
+### 設定
 
-At first time, you need to create a configuration file `altax.php`. Run the following command to generate `altax.php` file.
+最初に、設定ファイル`altax.php`を作成します。以下のコマンドで`altax.php`が生成されます。
 
 <pre class="sh-nonumber">
 $ altax init
 </pre>
 
-Modify generated `altax.php` file.
-You need to define managed hosts and tasks.
-All managed hosts must be able to be accessed by SSH on publick key authentication without password.
+生成された`altax.php`ファイルを以下のように編集してください。
+管理対象のホストとタスクを定義する必要があります。
+すべての管理対象のホストはSSHの公開鍵認証、パスワードなしで接続できるようになっていなければなりません。
 
 <pre class="php">
 role('web', '192.168.0.11');
@@ -41,19 +41,19 @@ task('sample',array('roles' => 'web'), function($host, $args){
 });
 </pre>
 
-Run below command to show available tasks list
+以下のコマンドで利用できるタスクを表示できます。
 
 <pre class="sh-nonumber">
 $ altax -l
-# You will get below message.
+# 以下のようなメッセージが表示されます。
 Available tasks :
   sample  : This is a sample task.
   init    : Create default configuration file (altax.php).
 </pre>
 
-### Running Task
+### タスクの実行
 
-Execute below command.
+以下のコマンドを実行してください。
 
 <pre class="sh-nonumber">
 $ altax sample
@@ -68,10 +68,10 @@ Hellow World!
 
 <div class="row">
   <div class="span4">
-    <a class="prev" href="/altax/ja/documentation/">Documentation</a>
+    <a class="prev" href="/altax/ja/documentation/">ドキュメント</a>
   </div>
   <div class="span4 offset4" style="text-align: right;">
-    <a class="next" href="/altax/ja/documentation/installation.html">Installation</a>
+    <a class="next" href="/altax/ja/documentation/installation.html">インストール</a>
   </div>
 </div>
 

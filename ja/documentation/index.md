@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Documentation - Altax
+title: ドキュメント - Altax
 lang:  ja
 url_prefix: ja/
 ---
-## Documentation
+## ドキュメント
 
-* [Getting started](/altax/ja/documentation/getting-started.html)
+* [はじめに](/altax/ja/documentation/getting-started.html)
 
-* [Installation](/altax/ja/documentation/installation.html)
+* [インストール](/altax/ja/documentation/installation.html)
 
-* [Configuration](/altax/ja/documentation/configuration.html)
+* [設定](/altax/ja/documentation/configuration.html)
 
-* [Basic usage](/altax/ja/documentation/basic-usage.html)
+* [基本的な使用方法](/altax/ja/documentation/basic-usage.html)
 

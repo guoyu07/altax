@@ -1,41 +1,42 @@
 ---
 layout: default
-title: Documentation - Altax
+title: ドキュメント - Altax
 lang:  ja
 url_prefix: ja/
 ---
 
-## Installation
+## インストール
 
-There are several ways to install Altax to your system.
+Altaxのインストール方法はいくつかあります。
 
-### Installing compiled package to current working direcotry
+### コンパイルドパッケージをカレントディレクトリにインストールする
 
-The compiled package is a single executable PHP file generated from all Altax src files.
+コンパイルドパッケージとは実行可能な単一のPHPファイルです。これはAltaxのすべてのソースファイルを結合して作られています。
 
-If you want to install Altax to your current working directory, you should run below command.
+Altaxをカレントディレクトリにインストールする場合は以下のコマンドを実行します。
 
 <pre class="sh-nonumber">
 $ curl https://raw.github.com/kohkimakimoto/altax/master/installer.sh | bash -s
 </pre>
 
-You will get executable `altax` command file in your current working directory.
+これで、実行権限のついた`altax`ファイルがカレントディレクトリにインストールされます。
 
-### Installing compiled package to system wide
 
-If you want to install Altax to system wide, you should run below command under the root user.
+### コンパイルドパッケージをシステムワイドにインストールする
+
+Altaxをシステムワイドにインストールする場合は以下のコマンドをルートユーザで実行します。
 
 <pre class="sh-nonumber">
 $ curl https://raw.github.com/kohkimakimoto/altax/master/installer.sh | bash -s system
 </pre>
 
-You will get executable `altax` command file in `/usr/local/bin`.
+これで、実行権限のついた`altax`ファイルが`/usr/local/bin`にインストールされます。
 
-### Installing composer package
+### Composerパッケージとしてインストールする
 
-[Composer](http://getcomposer.org/) is a famous dependency management tool for PHP.
-If you want to use composer to manage packages, you can use composer installation.
-Make `composer.json` file like the following.
+[Composer](http://getcomposer.org/)はPHPの有名な依存関係の管理ツールです。
+AltaxをComposerのパッケージとして管理したい場合は、Composerによるインストールが利用できます。
+以下のような`composer.json`を作成してください。
 
 <pre class="sh">
 {
@@ -45,7 +46,7 @@ Make `composer.json` file like the following.
 }
 </pre>
 
-And run Composer install command.
+そして、Composerのインストールコマンドを実行します。
 
 <pre class="sh-nonumber">
 $ curl -s http://getcomposer.org/installer | php
@@ -53,14 +54,12 @@ $ php composer.phar install
 </pre>
 
 
-
-
 <div class="row">
   <div class="span4">
-    <a class="prev" href="/altax/ja/documentation/getting-started.html">Getting started</a>
+    <a class="prev" href="/altax/ja/documentation/getting-started.html">はじめに</a>
   </div>
   <div class="span4 offset4" style="text-align: right;">
-    <a class="next" href="/altax/ja/documentation/configuration.html">Configuration</a>
+    <a class="next" href="/altax/ja/documentation/configuration.html">設定</a>
   </div>
 </div>
 
