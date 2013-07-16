@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Configuration - Altax
-lang:  en
+lang:  ja
+url_prefix: ja/
 ---
 ## run
 
@@ -44,5 +45,5 @@ run('/etc/init.d/httpd restart', array('user' => 'root'));
 
 ### See Also
 
-* [task](/altax/documentation/configuration/task.html) - Defines a new task.
+* [task](/altax/ja/documentation/configuration/task.html) - Defines a new task.
 

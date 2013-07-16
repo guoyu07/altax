@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Configuration - Altax
-lang:  en
+lang:  ja
+url_prefix: ja/
 ---
-## set
+## get

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Documentation - Altax
-lang:  en
+lang:  ja
+url_prefix: ja/
 ---
 
 ## Installation
@@ -56,10 +57,10 @@ $ php composer.phar install
 
 <div class="row">
   <div class="span4">
-    <a class="prev" href="/altax/documentation/getting-started.html">Getting started</a>
+    <a class="prev" href="/altax/ja/documentation/getting-started.html">Getting started</a>
   </div>
   <div class="span4 offset4" style="text-align: right;">
-    <a class="next" href="/altax/documentation/configuration.html">Configuration</a>
+    <a class="next" href="/altax/ja/documentation/configuration.html">Configuration</a>
   </div>
 </div>
 

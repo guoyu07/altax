@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Configuration - Altax
-lang:  en
+lang:  ja
+url_prefix: ja/
 ---
 ## desc
 
@@ -37,5 +38,5 @@ task('deploy', function($host, $args){
 
 ### See Also
 
-* [task](/altax/documentation/configuration/task.html) - Defines a new task.
+* [task](/altax/ja/documentation/configuration/task.html) - Defines a new task.
 

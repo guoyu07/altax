@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Configuration - Altax
-lang:  en
+lang:  ja
+url_prefix: ja/
 ---
 ## host
 
@@ -45,5 +46,5 @@ host('web2.exsample.com', array('host' => '192.168.0.12', 'port' => '22', 'login
 
 ### See Also
 
-* [role](/altax/documentation/configuration/role.html) - Associates a role with multiple hosts.
+* [role](/altax/ja/documentation/configuration/role.html) - Associates a role with multiple hosts.
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Documentation - Altax
+lang:  en
 ---
 ## Configuration
 

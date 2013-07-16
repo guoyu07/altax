@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang }}">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }} </title>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ page.title }}</title>
     <meta property="og:title" content="Altax - A simple deployment tool for PHP">
     <meta property="og:description" content="Altax is strongly inspired by Capistrano and Cinamon. But these don’t allow you to write a deployment task in PHP. Altax is different.">
     <meta property="og:url" content="http://kohkimakimoto.github.io/altax/">
@@ -18,7 +17,6 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
-
   <body>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
@@ -32,17 +30,27 @@
       <div class="container">
         <div class="row">
           <div class="span2">
-            <a class="logo" href="/altax/">Altax</a>
+            <a class="logo" href="/altax/{{ page.url_prefix }}">Altax</a>
           </div>
-          <div class="span10 header-menu-wrap">
+          <div class="span6 header-menu-wrap">
             <ul class="header-menu">
-              <li><a href="/altax/">ABOUT</a></li>
-              <li><a href="/altax/documentation/">DOCUMENTATION</a></li>
+              <li><a href="/altax/{{ page.url_prefix }}">ABOUT</a></li>
+              <li><a href="/altax/{{ page.url_prefix }}documentation/">DOCUMENTATION</a></li>
               <!--
               <li><a href="/altax/development.html">DEVELOPMENT</a></li>
               -->
             </ul>
           </div>
+          <div class="span4 header-menu-wrap">
+            <ul class="header-menu" style="float: right;">
+              <li><a href="/altax/">English</a></li>
+              <li><a href="/altax/ja/">Japanese</a></li>
+              <!--
+              <li><a href="/altax/development.html">DEVELOPMENT</a></li>
+              -->
+            </ul>
+          </div>
+
         </div>
       </div> <!-- /container -->
     </header>
@@ -51,7 +59,7 @@
         <div class="row">
           <div class="span12">
             <div class="header-space-inner">
-              <h1 class="page-title"><a href="/altax/">Altax</a></h1>
+              <h1 class="page-title"><a href="/altax/{{ page.url_prefix }}">Altax</a></h1>
               <p class="description">A simple deployment tool for PHP</p>
             </div>
           </div>

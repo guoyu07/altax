@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Documentation - Altax
-lang:  en
+lang:  ja
+url_prefix: ja/
 ---
 ## Getting started
 
@@ -67,10 +68,10 @@ Hellow World!
 
 <div class="row">
   <div class="span4">
-    <a class="prev" href="/altax/documentation/">Documentation</a>
+    <a class="prev" href="/altax/ja/documentation/">Documentation</a>
   </div>
   <div class="span4 offset4" style="text-align: right;">
-    <a class="next" href="/altax/documentation/installation.html">Installation</a>
+    <a class="next" href="/altax/ja/documentation/installation.html">Installation</a>
   </div>
 </div>
 

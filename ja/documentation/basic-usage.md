@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Documentation - Altax
-lang:  en
+lang:  ja
+url_prefix: ja/
 ---
 ## Basic usage
 
@@ -107,6 +108,6 @@ task('sometask', array('roles' => 'web'), function($host, $args){
 
 <div class="row">
   <div class="span4">
-    <a class="prev" href="/altax/documentation/configuration.html">Configuration</a>
+    <a class="prev" href="/altax/ja/documentation/configuration.html">Configuration</a>
   </div>
 </div>

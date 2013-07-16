@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Configuration - Altax
-lang:  en
+lang:  ja
+url_prefix: ja/
 ---
 ## task
 
@@ -82,6 +83,6 @@ task('deploy', array('roles' => 'web'), function($host, $args){
 
 ### See Also
 
-* [host](/altax/documentation/configuration/host.html) - Associates a host with multiple roles.
-* [role](/altax/documentation/configuration/role.html) - Associates a role with multiple hosts.
+* [host](/altax/ja/documentation/configuration/host.html) - Associates a host with multiple roles.
+* [role](/altax/ja/documentation/configuration/role.html) - Associates a role with multiple hosts.
 

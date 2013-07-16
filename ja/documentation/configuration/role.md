@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Configuration - Altax
-lang:  en
+lang:  ja
+url_prefix: ja/
 ---
 ## role
 
@@ -34,5 +35,5 @@ role('db', 'db1.exsample.com');
 
 ### See Also
 
-* [host](/altax/documentation/configuration/host.html) - Associates a host with multiple roles.
+* [host](/altax/ja/documentation/configuration/host.html) - Associates a host with multiple roles.
 
