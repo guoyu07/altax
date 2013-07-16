@@ -404,13 +404,13 @@ footer {
 }
 
 .prev {
-  display: block;
+  display: inline-block;
   margin-top: 10px;
   font-size: 120%;
 }
 
 .next {
-  display: block;
+  display: inline-block;
   margin-top: 10px;
   font-size: 120%;
 }
@@ -421,3 +421,27 @@ footer {
 .next:after {
   content: " >>";
 }
+
+.main .menu {
+  margin-top: 20px;
+}
+
+.main .menu li{
+  list-style: none;
+}
+
+.main .menu li.nav-title{
+  font-size: 120%;
+  margin-bottom: 10px;
+}
+
+.main .menu li ul.child{
+padding-right: 0px;
+padding-left: 0px;
+}
+.main .menu li ul.child li{
+padding-left: 15px;
+}
+
+
+

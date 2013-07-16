@@ -1,29 +1,28 @@
 ---
-layout: default
+layout: documentation.ja
 title: ドキュメント - Altax
 lang:  ja
 url_prefix: ja/
 ---
-## Configuration
+## 設定
 
-This page provides infomations of several configuration functions on Altax.
-You can use these functions on your altax configuration file (default file name is `altax.php` on your current working directory).
+このページではAltaxの設定を行うために用意されている関数について説明します。
+これらの関数はAltaxの設定ファイル(デフォルトはカレントディレクトリの`altax.php`です)で使用出来ます。
 
+### 概要
 
-### Overviews
-
-This is a simple configuration file.
+サンプルの設定ファイルは下記のようになります。
 
 <pre class="php">
-// Output message uses colors.
+// 出力メッセージに色を付ける
 set('colors', true);
 
-// Target hosts and ssh connection settings.
+// 対象のホストとSSHコネクションの設定
 host('web1',  array('host' => '192.168.0.10', 'port' => '22'), 'web');
 host('web2',  array('host' => '192.168.0.11', 'port' => '22'), 'web');
 host('web3',  array('host' => '192.168.0.12', 'port' => '22'), 'web');
 
-// Deployment task.
+// デプロイタスク
 desc('Deploy application.');
 task('deploy', array('roles' => 'web'), function($host, $args){
 
@@ -32,24 +31,24 @@ task('deploy', array('roles' => 'web'), function($host, $args){
 });
 </pre>
 
-### Reference configurations
+### リファレンス
 
-* [host](/altax/ja/documentation/configuration/host.html) - Associates a host with multiple roles.
-* [role](/altax/ja/documentation/configuration/role.html) - Associates a role with multiple hosts.
-* [task](/altax/ja/documentation/configuration/task.html) - Defines a new task.
-* [desc](/altax/ja/documentation/configuration/desc.html) - Associates a description with the next task that gets defined.
-* [set](/altax/ja/documentation/configuration/set.html) - Sets a variable.
-* [get](/altax/ja/documentation/configuration/get.html) - Gets a variable.
-* [run](/altax/ja/documentation/configuration/run.html) - Executes commands on remote managed server.
-* [run_local](/altax/ja/documentation/configuration/run_local.html) - Executes commands on local server.
-* [run_task](/altax/ja/documentation/configuration/run_task.html) - Runs other task in the task method.
+* [host](/altax/ja/documentation/configuration/host.html) - ホストを一つまたは複数ロールに関連付けます。
+* [role](/altax/ja/documentation/configuration/role.html) - ロールを一つまたは複数のホストに関連付けます。
+* [task](/altax/ja/documentation/configuration/task.html) - 新しいタスクを定義します。
+* [desc](/altax/ja/documentation/configuration/desc.html) - 次に定義されたタスクに説明文を関連付けます。
+* [set](/altax/ja/documentation/configuration/set.html) - 変数を設定します。
+* [get](/altax/ja/documentation/configuration/get.html) - 変数を取得します。
+* [run](/altax/ja/documentation/configuration/run.html) - リモートの管理対象ホストでコマンドを実行します。
+* [run_local](/altax/ja/documentation/configuration/run_local.html) - ローカルホストでコマンドを実行します。
+* [run_task](/altax/ja/documentation/configuration/run_task.html) - タスク内からほかのタスクを実行します。
 
 
 <div class="row">
   <div class="span4">
-    <a class="prev" href="/altax/ja/documentation/installation.html">Installation</a>
+    <a class="prev" href="/altax/ja/documentation/installation.html">インストール</a>
   </div>
   <div class="span4 offset4" style="text-align: right;">
-    <a class="next" href="/altax/ja/documentation/basic-usage.html">Basic Usage</a>
+    <a class="next" href="/altax/ja/documentation/basic-usage.html">基本的な使用方法</a>
   </div>
 </div>

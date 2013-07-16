@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: documentation
 title: Configuration - Altax
 lang:  en
 ---

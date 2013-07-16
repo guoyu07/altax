@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: documentation.ja
 title: ドキュメント - Altax
 lang:  ja
 url_prefix: ja/

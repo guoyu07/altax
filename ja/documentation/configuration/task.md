@@ -1,6 +1,6 @@
 ---
-layout: default
-title: 設定 - Altax
+layout: documentation.ja
+title: Configuration - Altax
 lang:  ja
 url_prefix: ja/
 ---
@@ -32,6 +32,7 @@ task(string $name, [array $options,] callback $function)
   Callback function implemented task.
 
 ### Examples
+
 <pre class="php-nonumber">
 // Task for web role servers.
 task('task1', array('roles' => 'web'), function($host, $args){
@@ -39,12 +40,12 @@ task('task1', array('roles' => 'web'), function($host, $args){
 });
 
 // Task for web and db role servers.
-task('task2', array('roles' => array('web', 'db'), function($host, $args){
+task('task2', array('roles' => array('web', 'db')), function($host, $args){
     // your task code here.
 });
 
 // Task for web1.exsample.com servers.
-task('task2', array('hosts' => 'web1.exsample.com', function($host, $args){
+task('task2', array('hosts' => 'web1.exsample.com'), function($host, $args){
     // your task code here.
 });
 

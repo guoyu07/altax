@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: documentation.ja
 title: ドキュメント - Altax
 lang:  ja
 url_prefix: ja/
 ---
-## Basic usage
+## 基本的な使用方法
 
 Altax makes `altax` command to your system.
 You can use this command with some command line options.
@@ -108,6 +108,6 @@ task('sometask', array('roles' => 'web'), function($host, $args){
 
 <div class="row">
   <div class="span4">
-    <a class="prev" href="/altax/ja/documentation/configuration.html">Configuration</a>
+    <a class="prev" href="/altax/ja/documentation/configuration.html">設定</a>
   </div>
 </div>

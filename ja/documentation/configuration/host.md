@@ -1,6 +1,6 @@
 ---
-layout: default
-title: 設定 - Altax
+layout: documentation.ja
+title: Configuration - Altax
 lang:  ja
 url_prefix: ja/
 ---
