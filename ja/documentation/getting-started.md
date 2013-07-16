@@ -57,7 +57,7 @@ Available tasks :
 
 <pre class="sh-nonumber">
 $ altax sample
-# You will get below message.
+# 以下のようなメッセージが表示されます。
 [2013-02-28T08:46:58+09:00] *** Altax version 1.0.0 ***
 [2013-02-28T08:46:58+09:00] Starting task: [sample]
 Connection to 192.168.0.11 closed.
