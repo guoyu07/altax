@@ -6,23 +6,23 @@ url_prefix: ja/
 ---
 ## desc
 
-Associates a description with the next task that gets defined.
+次に定義されたタスクに説明文を関連付けます。
 
-### Description
+### 説明
 
 <pre class="php-nonumber">
 desc(string $description)
 </pre>
 
-**desc** associates a description with the next task that gets defined.
+**desc**は次に定義されたタスクに説明文を関連付けます。
 
-### Parameters
+### パラメータ
 
 * description
 
-  Associates a description
+  関連付ける説明文
 
-### Examples
+### 例
 
 <pre class="php-nonumber">
 desc('Deploy application.');
@@ -36,7 +36,7 @@ task('deploy', function($host, $args){
 // $ altax -l
 </pre>
 
-### See Also
+### 関連
 
 * [task](/altax/ja/documentation/configuration/task.html) - Defines a new task.
 

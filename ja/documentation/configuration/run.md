@@ -6,33 +6,30 @@ url_prefix: ja/
 ---
 ## run
 
-Executes commands on remote managed server.
+リモートの管理対象ホストでコマンドを実行します。
 
-### Description
+### 説明
 
 <pre class="php-nonumber">
 run(string $command, array $options)
 </pre>
 
-**run** executes commands on remote managed server.
+**run**はリモートの管理対象ホストでコマンドを実行します。
 
-### Parameters
+### パラメータ
 
 * command
 
-  Executing command
+  実行するコマンド
 
 * options
 
-  Options to change command behavior.
-  `user` is used to change user executing command.
-  `cwd` is used to change current working directory when the command execute.
-  See examples.
+  コマンドの振る舞いを変えるためのオプションです。
+  `user`はコマンドの実行ユーザを変更します。
+  `cwd`はコマンド実行時のカレントディレクトリを変更します。
+  以下の例を参考にしてください。
 
-
-
-
-### Examples
+### 例
 
 <pre class="php-nonumber">
 // Run git pull in the '/path/to/application'
@@ -43,7 +40,8 @@ run('/etc/init.d/httpd restart', array('user' => 'root'));
 
 </pre>
 
-### See Also
+### 関連
 
-* [task](/altax/ja/documentation/configuration/task.html) - Defines a new task.
+* [task](/altax/ja/documentation/configuration/task.html) - 新しいタスクを定義します。
+
 

@@ -6,28 +6,28 @@ url_prefix: ja/
 ---
 ## run_task
 
-Runs other task in the task method.
+タスク内からほかのタスクを実行します。
 
-### Description
+### 説明
 
 <pre class="php-nonumber">
 run_task(string name, [array $arguments])
 </pre>
 
-**run_task** runs other task in the task method.
+**run_task**はタスク内からほかのタスクを実行します。
 
-### Parameters
+### パラメータ
 
 * name
 
-  Executing task name
+  実行するタスク名。
 
 * arguments
 
-  Arguments passed to the task.
+  呼び出しタスクに渡す引数。
 
 
-### Examples
+### 例
 
 <pre class="php-nonumber">
 
@@ -47,8 +47,8 @@ task('task2', array('roles' => 'web'), function($host, $args){
 
 </pre>
 
-### See Also
+### 関連
 
-* [task](/altax/ja/documentation/configuration/task.html) - Defines a new task.
-* [run](/altax/ja/documentation/configuration/run.html) - Executes commands on local server.
+* [task](/altax/ja/documentation/configuration/task.html) - 新しいタスクを定義します。
+* [run](/altax/ja/documentation/configuration/run.html) - リモートの管理対象ホストでコマンドを実行します。
 

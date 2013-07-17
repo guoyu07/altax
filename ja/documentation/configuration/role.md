@@ -6,34 +6,34 @@ url_prefix: ja/
 ---
 ## role
 
-Associates a role with multiple hosts.
+ロールを一つまたは複数のホストに関連付けます。
 
-### Description
+### 説明
 
 <pre class="php-nonumber">
 role(string $role, mixed $hosts)
 </pre>
 
-**role** associates a role with multiple hosts.
+**role**はロールを一つまたは複数のホストに関連付けます。
 
-### Parameters
+### パラメータ
 
 * role
 
-  Role name for classifing multiple hosts.
+  ホストを分類するロール名。
 
 * hosts
 
-  Associated hosts.
+  関連付けるホスト。
 
-### Examples
+### 例
 
 <pre class="php-nonumber">
 role('web', array('web1.exsample.com','web2.exsample.com','web3.exsample.com'));
 role('db', 'db1.exsample.com');
 </pre>
 
-### See Also
+### 関連
 
-* [host](/altax/ja/documentation/configuration/host.html) - Associates a host with multiple roles.
+* [host](/altax/ja/documentation/configuration/host.html) - ホストを一つまたは複数ロールに関連付けます。
 

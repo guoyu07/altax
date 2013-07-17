@@ -5,7 +5,7 @@ lang:  en
 ---
 ## run
 
-Executes commands on remote managed server.
+Executes commands on a remote managed server.
 
 ### Description
 
@@ -13,7 +13,7 @@ Executes commands on remote managed server.
 run(string $command, array $options)
 </pre>
 
-**run** executes commands on remote managed server.
+**run** executes commands on a remote managed server.
 
 ### Parameters
 

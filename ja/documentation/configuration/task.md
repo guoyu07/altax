@@ -6,32 +6,32 @@ url_prefix: ja/
 ---
 ## task
 
-Defines a new task.
+新しいタスクを定義します。
 
-### Description
+### 説明
 
 <pre class="php-nonumber">
 task(string $name, [array $options,] callback $function)
 </pre>
 
-**task** defines a new task.
+**task**は新しいタスクを定義します。
 
 
-### Parameters
+### パラメータ
 
 * name
 
-  Task name.
+  タスク名。
 
 * options
 
-  Associated settings to the task.
+  タスクに関連付ける設定。
 
 * function
 
-  Callback function implemented task.
+  タスクの処理を実装したコールバック関数。
 
-### Examples
+### 例
 
 <pre class="php-nonumber">
 // Task for web role servers.
@@ -56,7 +56,8 @@ task('task3', function($host, $args){
 });
 </pre>
 
-Exsample with **host** and **desc**
+
+**host**、**desc**と合わせたタスク定義例。
 
 <pre class="php-nonumber">
 // Output message uses colors.
@@ -82,8 +83,8 @@ task('deploy', array('roles' => 'web'), function($host, $args){
 
 
 
-### See Also
+### 関連
 
-* [host](/altax/ja/documentation/configuration/host.html) - Associates a host with multiple roles.
-* [role](/altax/ja/documentation/configuration/role.html) - Associates a role with multiple hosts.
+* [host](/altax/ja/documentation/configuration/host.html) - ホストを一つまたは複数ロールに関連付けます。
+* [role](/altax/ja/documentation/configuration/role.html) - ロールを一つまたは複数のホストに関連付けます。
 

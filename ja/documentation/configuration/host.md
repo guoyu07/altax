@@ -6,34 +6,32 @@ url_prefix: ja/
 ---
 ## host
 
-Associates a host with multiple roles.
+ホストを一つまたは複数ロールに関連付けます。
 
-### Description
+### 説明
 
 <pre class="php-nonumber">
 host(string $host, [array $options,] mixed $roles)
 </pre>
 
-**host** associates a host with multiple roles.
-And configure specified host settings.
-For instance SSH connection settings.
+**host**はホストを一つまたは複数ロールに関連付けます。
+またホスト固有の設定を行います。例えばSSHの接続設定などです。
 
-
-### Parameters
+### パラメータ
 
 * host
 
-  Host name.
+  ホスト名
 
 * options
 
-  Associated settings to the host.
+  ホストに関連付ける設定
 
 * roles
 
-  Associated roles.
+  ホストに関連付けるロール
 
-### Examples
+### 例
 
 <pre class="php-nonumber">
 // Define server "web1.exsample.com" and associates with "web" role.
@@ -44,7 +42,7 @@ host('192.168.0.11', array('web', 'dev'));
 host('web2.exsample.com', array('host' => '192.168.0.12', 'port' => '22', 'login_name' => 'userhoge', 'identity_file' => '/home/userhoge/.ssh/id_rsa'), 'web');
 </pre>
 
-### See Also
+### 関連
 
-* [role](/altax/ja/documentation/configuration/role.html) - Associates a role with multiple hosts.
+* [role](/altax/ja/documentation/configuration/role.html) - ロールを一つまたは複数のホストに関連付けます。
 
