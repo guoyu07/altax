@@ -6,23 +6,23 @@ url_prefix: ja/
 ---
 ## 基本的な使用方法
 
-Altax makes `altax` command to your system.
-You can use this command with some command line options.
+Altaxは`altax`コマンドをシステムにインストールします。
+このコマンドはいくつかのコマンドラインオプションを持っています。
 
-### syntax
+### シンタックス
 
 <pre class="sh-nonumber">
 altax [-d|-h|-f|-l|-c] TASK [ARGS..]
 </pre>
 
 
-### Command line Options
+### コマンドラインオプション
 
 #### -d
 
-Switch the debug mode to output log on the debug level.
+ログをデバッグレベルで出力するデバッグモードに切り替えます。
 
-Exsample:
+例:
 
 <pre class="sh-nonumber">
 $ altax -d init
@@ -30,9 +30,9 @@ $ altax -d init
 
 #### -l
 
-List available tasks.
+利用可能なタスクを表示します。
 
-Exsample:
+例:
 
 <pre class="sh-nonumber">
 $ altax -l
@@ -40,9 +40,9 @@ $ altax -l
 
 #### -h
 
-List available command line options.
+利用可能なコマンドラインオプションを表示します。
 
-Exsample:
+例:
 
 <pre class="sh-nonumber">
 $ altax -h
@@ -51,9 +51,9 @@ $ altax -h
 
 #### -f=FILE
 
-Specify to load configuration file.
+読み込む設定ファイルを指定します。
 
-Exsample:
+例:
 
 <pre class="sh-nonumber">
 $ altax -f=/path/to/altax.php
@@ -62,48 +62,48 @@ $ altax -f=/path/to/altax.php
 
 #### -c
 
-List configurations.
+設定内容を表示します。
 
-Exsample:
+例:
 
 <pre class="sh-nonumber">
 $ altax -c
 </pre>
 
-### Running Task
+### タスクの実行
 
-You run a defined task below command
+定義されたタスクは以下のコマンドで実行出来ます。
 
 <pre class="sh-nonumber">
 $ altax sometask
 </pre>
 
-The following is built-in init task to create initial configuration file.
+以下は組み込みのinitタスクです。このタスクは初期の設定ファイルを生成します。
 
 <pre class="sh-nonumber">
 $ altax init
 </pre>
 
-If you have a problem, you can use -d option to get debug level messages.
+タスク実行中にもし問題にあたったら、-dオプションをつけてデバッグレベルのメッセージを表示して、問題解決に役立てることができます。
 
 <pre class="sh-nonumber">
 $ altax -d sometask
 </pre>
 
-You can use command line arguments passed to your task.
+タスクにはコマンドライン引数を渡すことができます。
 
 <pre class="sh-nonumber">
 $ altax sometask foo bar
 </pre>
 
-You can use arguments as below PHP code.
+この引数は以下のようなPHPコードで使用出来ます。
+
 <pre class="php">
 task('sometask', array('roles' => 'web'), function($host, $args){
     // args[0] => "foo"
     // args[1] => "bar"
 });
 </pre>
-
 
 
 <div class="row">
