@@ -191,6 +191,10 @@ pre code {
   padding: 0;
 }
 
+li>p {
+  display: inline;
+}
+
 .main dl dd {
   font-style: italic;
   font-weight: 100;
