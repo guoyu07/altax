@@ -191,7 +191,7 @@ pre code {
   padding: 0;
 }
 
-li>p {
+li>p:first-child {
   display: inline;
 }
 
@@ -228,6 +228,7 @@ ul.header-menu li a:visited
 
 .header-space{
   min-height: 210px;
+  background: background:linear-gradient(#4351cc, #29216c);
   background: -moz-linear-gradient(top, #4351cc, #29216c);
   background: -webkit-gradient(linear, left top, left bottom, from(#4351cc), to(#29216c));
   background: #4351cc;
