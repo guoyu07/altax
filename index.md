@@ -35,7 +35,7 @@ task('deploy', array('roles' => 'web'), function($host, $args){
 });
 </pre>
 
-There are more infomations in the [documentation](/altax/documentation/) page.
+There is more information in the [documentation](/altax/documentation/) page.
 
 Latest stable version v1.3.1
 
