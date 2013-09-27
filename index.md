@@ -5,9 +5,9 @@ lang:  en
 ---
 ## A simple deployment tool
 
-Altax is a simple deployment tool running SSH in parallel. The features are the following.
-
 **This document is for version 1. Do you use Altax version 2? Sorry, I haven't written its document yet.**
+
+Altax is a simple deployment tool running SSH in parallel. The features are the following.
 
 * Written in PHP.
 
