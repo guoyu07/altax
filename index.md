@@ -7,6 +7,8 @@ lang:  en
 
 Altax is a simple deployment tool running SSH in parallel. The features are the following.
 
+**This document is for version 1. Do you use Altax version 2? Sorry, I haven't written its document yet.**
+
 * Written in PHP.
 
 * Implemented as SSH command wrapper.
