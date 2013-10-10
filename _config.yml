@@ -1,1 +1,2 @@
-baseurl:     /altax/
+baseurl: /altax/
+exclude: ["README.md","Gemfile.lock","Gemfile", "v1", "vendor"]
